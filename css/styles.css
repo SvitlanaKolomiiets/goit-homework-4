@@ -315,8 +315,11 @@ img{
     fill: var(--icons-social-color);
 }
 .client-item:hover .icon-partner,
-.client-item:focus .icon-partner{
+.client-item:focus .icon-partner,
+.client-item:hover,
+.client-item:focus{
     fill: var(--active-color, blue);
+    border-color: var(--active-color, blue);
 }
 
 /*---------------MAIN-INDEX--------------------------------------*/
